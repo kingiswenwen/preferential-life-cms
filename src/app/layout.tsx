@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
+import {ThemeProvider} from "@/components/theme-provider"
+
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+// 从local模块导入 kodeMono字体,将字体添加到<body> 元素
+import {GeistVF, GeistMonoVF} from "@/app/ui/fonts";
+import React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -15,8 +19,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+      <>
+          <html lang="en" suppressHydrationWarning>
+          <head><title></title></head>
+          <body className={GeistVF.className}>
+          <ThemeProvider
+              attribute="class"
+              defaultTheme="system"
+              enableSystem
+              disableTransitionOnChange
+          >
+              {children}
+          </ThemeProvider>
+          </body>
+          </html>
+      </>
   );
 }

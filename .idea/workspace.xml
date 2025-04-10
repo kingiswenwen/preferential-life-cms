@@ -4,28 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b44d45ce-a04b-4cc7-9549-e8f7f7561698" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2287433f-03bd-43b3-91b6-a7a59bea4985.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2287433f-03bd-43b3-91b6-a7a59bea4985/storage_v2/_src_/database/preferential-life.sOBd_A.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2287433f-03bd-43b3-91b6-a7a59bea4985/storage_v2/_src_/database/preferential-life.sOBd_A/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2287433f-03bd-43b3-91b6-a7a59bea4985/storage_v2/_src_/database/preferential-life.sOBd_A/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2287433f-03bd-43b3-91b6-a7a59bea4985/storage_v2/_src_/database/preferential-life.sOBd_A/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/lib/data.ts" afterDir="false" />
+    <list default="true" id="b44d45ce-a04b-4cc7-9549-e8f7f7561698" name="更改" comment="feat(database): 添加 Neon 数据库连接和测试&#10;&#10;- 新增 .env 文件，配置数据库连接 URL&#10;- 添加 data.ts 文件，实现数据库连接和数据获取&#10;- 更新 package.json，添加 @neondatabase/serverless 依赖&#10;- 新增 IntelliJ IDEA 配置文件，支持数据库连接和项目设置">
+      <change afterPath="$PROJECT_DIR$/public/fonts/GeistMonoVF.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/GeistVF.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/preferential-life-main.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/ui/fonts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/ui/themeToggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theme-provider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -40,6 +44,17 @@
     &quot;state&quot;: &quot;OPEN&quot;,
     &quot;assignee&quot;: &quot;kingiswenwen&quot;
   }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOWbyUM6R6jxl&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1744191225790
+    }
+  ]
 }</component>
   <component name="GitToolBoxStore">
     <option name="largeFiles">
@@ -79,6 +94,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kingiswenwen/preferential-life-cms.git&quot;,
     &quot;accountId&quot;: &quot;5aa57133-16c3-4d05-b38e-f59b05909c21&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;kingiswenwen&quot;,
+    &quot;repository&quot;: &quot;preferential-life-cms&quot;
   }
 }</component>
   <component name="PackageJsonUpdateNotifier">
@@ -100,13 +125,14 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "last_opened_file_path": "/Users/wenchengliang/project/preferential-life/preferential-life-cms/public/fonts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.控制台字体",
     "ts.external.directory.path": "/Users/wenchengliang/project/preferential-life/preferential-life-cms/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
@@ -117,7 +143,13 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/app/ui" />
       <recent name="$PROJECT_DIR$/src/app/lib" />
     </key>
   </component>
@@ -128,8 +160,8 @@
       <scripts>
         <script value="dev" />
       </scripts>
-      <node-interpreter value="node" />
-      <package-manager value="npm" />
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v20.18.1/bin/node" />
+      <package-manager value="$USER_HOME$/.nvm/versions/node/v20.18.1/bin/npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -157,8 +189,19 @@
       <workItem from="1744175626955" duration="3710000" />
       <workItem from="1744188027584" duration="23000" />
       <workItem from="1744188052767" duration="145000" />
-      <workItem from="1744188220938" duration="2843000" />
+      <workItem from="1744188220938" duration="4124000" />
+      <workItem from="1744247681971" duration="13396000" />
+      <workItem from="1744282964950" duration="9887000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(database): 添加 Neon 数据库连接和测试&#10;&#10;- 新增 .env 文件，配置数据库连接 URL&#10;- 添加 data.ts 文件，实现数据库连接和数据获取&#10;- 更新 package.json，添加 @neondatabase/serverless 依赖&#10;- 新增 IntelliJ IDEA 配置文件，支持数据库连接和项目设置">
+      <option name="closed" value="true" />
+      <created>1744191190167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744191190167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +217,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="feat(database): 添加 Neon 数据库连接和测试&#10;&#10;- 新增 .env 文件，配置数据库连接 URL&#10;- 添加 data.ts 文件，实现数据库连接和数据获取&#10;- 更新 package.json，添加 @neondatabase/serverless 依赖&#10;- 新增 IntelliJ IDEA 配置文件，支持数据库连接和项目设置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(database): 添加 Neon 数据库连接和测试&#10;&#10;- 新增 .env 文件，配置数据库连接 URL&#10;- 添加 data.ts 文件，实现数据库连接和数据获取&#10;- 更新 package.json，添加 @neondatabase/serverless 依赖&#10;- 新增 IntelliJ IDEA 配置文件，支持数据库连接和项目设置" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
